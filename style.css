@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', serif;
+}
+.container{
+	width: 90%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba( 0, 0, 0, 0.4)), url(sky.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;;
+	padding-right: 5%
+
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+
+}
+nav ul li a{
+
+color: white;
+text-decoration: none;
+font-family: cursive;
+font-size: 15px;
+}
+nav ul li a:hover{
+	color: black;
+	background-color:rgba(255, 255, 255, 0.8);
+	padding: 8px;
+	border: 0; 
+	border-radius: 5px; 
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+
+}
+.col{
+	flex-basis: 50%;
+	margin-right: 100px;
+}
+h1{
+	color: white;
+	font-family: fantasy;
+	font-size: 100px;
+}
+p{
+	color: white;
+	font-size: 15px;
+	line-height: 15px;
+}
+button{
+	width: 180px;
+	color: #000;
+	font-size: 20px;
+	padding: 15px 0;
+	background: white;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+button:hover{
+
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.card{
+	width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-image: url(astro.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+	 background-image: url(telescope.jpg);
+}
+.card2{
+	 background-image: url(glissa.jpg);
+}
+.card3{
+	 background-image: url(exp.png);
+}
+.card4{
+	 background-image: url(maga.png);
+}
+h5{
+	color: #ffff;
+	font-size: 18px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+p{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.card:hover{
+	transform: translate(-10px);
+}
